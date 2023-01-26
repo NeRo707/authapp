@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+h1{
+    font-family: 'Quicksand', sans-serif;
+}
+
+.signup-box{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+  background-image: url(https://c0.wallpaperflare.com/preview/428/554/387/sahara-nightsky-stars-night.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+button{
+  display: block;
+  transition: 100ms;
+  padding: 10px;
+  border-style: none;
+  color: black;
+  font-weight: bold;
+  background-color: #fede81;
+  width: 30vw;
+  border-radius: 100px;
+  margin-top: 5px;
+  cursor: pointer;
+  margin-top: 30px; 
+}
+
+.btns{
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+b{
+  margin-top: 10px;
+
+  color: red;
+}
+p{
+  margin-top: 10px;
+}
+
+button:active{
+  transition: 100ms;
+  width: 28vw;
+
+}
+
+.box{
+  background: rgba( 9, 9, 9, 0.15 );
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+  backdrop-filter: blur( 2.5px );
+  -webkit-backdrop-filter: blur( 2.5px );
+  border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+  width: 40vw;
+  height: 65vh;
+}
+
+.loginsus a{
+  color: white;
+  text-decoration: none;
+}

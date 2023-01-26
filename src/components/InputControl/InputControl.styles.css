@@ -1,0 +1,26 @@
+.inputs{
+  padding: 10px !important;
+  color: white !important;
+}
+
+.custom-text-color{
+  color: white !important;
+}
+
+.MuiInputBase-input {
+  color: white !important;
+  width: 20vw !important;
+}
+
+.MuiInputBase-input::placeholder {
+  color: white !important;
+}
+
+.custom-outline-color{
+  border-color: #fede81 !important;
+
+}
+
+::placeholder{
+  text-align: center;
+}

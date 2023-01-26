@@ -1,0 +1,34 @@
+.container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+  background-image: url(https://4.bp.blogspot.com/-ilhH26V045o/XA-opqNV_CI/AAAAAAAA924/U3UANUIZm8cHKvIXgL6wq7teUjlwfaIgACLcBGAs/s1600/AsaXW4J.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: -500px;
+}
+
+.input-box{
+  display: flex;
+  flex-direction: column;
+  width: 30vw;
+  align-items: center;
+  justify-content: center;
+  background: rgba(0, 0, 0, 0.25);
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 4px );
+  -webkit-backdrop-filter: blur( 4px );
+  border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+.loginsus a{
+  color: white;
+  text-decoration: none;
+}
+
+.brn3{
+  width: 27vw;
+}

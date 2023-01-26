@@ -1,0 +1,50 @@
+.box-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+
+
+
+}
+
+.sus{
+  width: 40vw;
+  background: rgba( 0, 230, 255, 0.1 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 1.5px );
+  -webkit-backdrop-filter: blur( 1.5px );
+  border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+.link-box{
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row-reverse;
+
+}
+
+.link-box a{
+  transition: 200ms;
+  text-decoration: none;
+  color: black;
+  padding: 10px;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 25px;
+  cursor: pointer;
+  background-color: #e1b56d;
+}
+
+.link-box a:hover{
+  transition: 200ms;
+  background-color: red;
+  color: white;
+}
+
+.logged-in{
+  color: white;
+}
